@@ -1,0 +1,242 @@
+Javascript 
+
+	Feautures of ES6 Script	
+	Difference between let and var	
+	Promises ? 	
+	Difference between Promise race and all ?
+	Hoisting ?
+	Closures ?	
+		
+React		
+	React lifecycle?	
+	JSX ?	
+	Virtual DOM ?	
+	Real DOM vs Virtual DOM	
+	Class Component vs Functional Component	
+	Props vs State ?	
+	PropDrilling ?	
+	Higher Order Function ?	
+	UseContext ?	
+	Hooks Features	
+	useState, useMemo, useEffect, useRef - program
+	useEffect Give some Examples...
+	Synthetic Events in React ?	
+		
+Redux		
+	Redux lifecycle?
+	Store ?	
+	Action and Reducer Uses ?
+		
+WEB API		
+	GET	
+	POST	
+	PUT	
+	PATCH	
+	DELETE	
+		
+	Explain with Examples?
+
+
+If you want learn GraphQL ( It is advanced one )
+
+
+Try this problem solving
+
+https://codesandbox.io/s/movie-catalogue-react-challenge-r8cml?file=/src/App.tsx
+
+
+https://beta.reactjs.org/learn
+
+
+javascript:
+1.array third hightest number (without inbuild method)
+function bubbleSort(array) {
+  var done = false;
+  while (!done) {
+    done = true;
+    for (var i = 1; i < array.length; i += 1) {
+      if (array[i - 1] > array[i]) {
+        done = false;
+        var tmp = array[i - 1];
+        array[i - 1] = array[i];
+        array[i] = tmp;
+      }
+    }
+  }
+
+  return array;
+}
+
+var numbers = [12, 10, 15, 11, 14, 13, 16];
+bubbleSort(numbers);
+console.log(numbers);
+
+2.odd or even number 
+3.  const arr = ["A","B", "C", "D"];
+
+
+
+arr.forEach(
+
+function(index) => {
+
+index + '' + arr(index)
+
+})
+
+);
+
+
+
+1. A
+
+2. b
+
+3. C
+
+4. D
+
+arr[2] = "E"
+
+arr.push (arr);
+
+
+
+A B E C D
+
+
+es6:
+promise: write
+
+react:
+1.hook - problem
+only functional component
+usecontext - avoid the props drilling
+useeffect - avoid rerender page (react virtual dom)
+https://daveceddia.com/useeffect-hook-examples/
+use 
+
+2.historypush or component router different
+
+3. country (select) and show country flag	
+
+
+
+
+redux:
+webapp
+rest
+restfull
+state
+store
+props
+
+API:
+get
+put
+post
+delete
+patch
+
+
+css:
+boxmodel
+
+Latest questions:
+1.what is state,props?
+2.codeing:
+country list given then we should in list (dropdown) along with in checkbox?
+
+React JS JD :
+
+HTML 5, CSS, JavaScript, React JS, Cross-browser Compatibility, Multi-platform Compatibility.
+Candidate must have experience in React Js ,Redux.
+Candidate should have recent relevant work experience of minimum 2 years in React
+He/She should have worked in web application tools jQuery
+Should be able to manage work independently.
+Should have exposure to work directly with the customer and good customer handling skills
+
+React JS Questions : 
+
+Design a responsive dropdown (on hover or click) navigational menu using HTML, CSS and JS.
+
+Find duplicate values in an array using JavaScript.
+
+Print all possible subsets of an array in JavaScript.
+
+React Life Cycle important asked difference of each life cycle methods.
+
+ForceUpdate and setState Difference - assigning a value to state is force update
+Redux architecture - elaborately need to explain
+Virtual dom  - explained with react for performance
+Closure function - important with example explained
+Arrow functions - explained in map and functions and scopes
+ES6 futures - let, promise, arrow functions explained
+Axios, fetchGet,fetchPost - explained about services calls trigger
+Async wait - waiting for promise to be resolved
+About Webpack build - explained build process
+About testing tools enzyme - explained test cases
+Keys in reactjs - used for performance
+Reactjs promise - explained about reject and success scenarios
+React code handling mechanism
+
+https://docs.google.com/document/d/14EngbahovVZ7vXh1ICE5u9_vvecOSFo2bmQ5e5jBsoI/edit
+
+https://docs.google.com/document/d/1LQ2mXKm93rIAwu_iP2Tz3pmIJ4Gi2igQoOHZV8dgvb0/edit
+
+
+Round 1 - JS logical questions
+
+es6 features and explanation
+
+array methods & forEach,map,filter difference
+
+
+
+--->write a function to find nth largest number from given array
+
+   e.g.,  fun([4,8,45,33,22],3)  o/p : 22
+
+
+
+--->write a function which accepts an input as "aabbbbbccdac" then it should return "a2b5c2d1a1c1"
+
+
+Round 2: react based questions
+
+Promise
+
+react lifecycle methods
+
+authentication & authorization in react
+
+useMemo
+
+redux flow
+
+redux persist
+
+redux devtools
+
+
+Round 3 - react task
+
+--->write a simple todo list app using react js
+
+e.g.,
+
+one input box - to get todo info
+
+one button - to add
+
+while add, we have to show the list below.
+
+each todo should have delete icon to delete
+
+Thanks & Regards,
+
+
+
+
+
+

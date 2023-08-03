@@ -1,0 +1,77 @@
+
+
+1.React lifecycle:
+https://blog.logrocket.com/react-lifecycle-methods-tutorial-examples/#whatisthereactcomponentlifecycle
+
+
+cheeta media - react hooks - very useful
+
+https://www.npmjs.com/package/axios - vue js
+
+1.https://stackoverflow.com/questions/58374623/when-to-use-react-hooks 
+2.https://blog.logrocket.com/introduction-vue-lifecycle-hooks/
+3.https://blog.logrocket.com/useeffect-hook-complete-guide/
+4.https://michaellandis.medium.com/this-aint-your-grandma-s-react-iii-how-hooks-handle-dependencies-696cbdef025d
+
+
+React js:
+
+1.What is JSX?
+JSX stands for JavaScript XML.
+JSX allows us to write HTML in React.
+JSX makes it easier to write and add HTML in React.
+
+with jsx:
+class Hello extends React.Component {
+  render() {
+    return <div>Hello {this.props.toWhat}</div>;
+  }
+}
+
+ReactDOM.render(
+  <Hello toWhat="World" />,
+  document.getElementById('root')
+);
+
+without jsx:
+class Hello extends React.Component {
+  render() {
+    return React.createElement('div', null, `Hello ${this.props.toWhat}`);
+  }
+}
+
+ReactDOM.render(
+  React.createElement(Hello, {toWhat: 'World'}, null),
+  document.getElementById('root')
+);
+
+2.Render
+React's goal is in many ways to render HTML in a web page.
+
+React renders HTML to the web page by using a function called ReactDOM.render().
+
+The ReactDOM.render() function takes two arguments, HTML code and an HTML element.
+
+The purpose of the function is to display the specified HTML code inside the specified HTML element.
+Display a paragraph inside the "root" element:
+
+ReactDOM.render(<p>Hello</p>, document.getElementById('root'));
+The result is displayed in the <div id="root"> element:
+
+<body>
+
+  <div id="root"></div>
+
+</body>
+
+3.base question:
+1.let and const
+2.arrow function
+3.export and inpoer
+4.claases
+5.spead and rest
+
+4.state property?
+5.two way binding?
+6.life cycle?
+7.router?
