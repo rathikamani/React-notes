@@ -1,5 +1,5 @@
 
-React js:
+React js: (18-v)
 ============
 Advantage of ReactJS:
 ==========================
@@ -7,4 +7,19 @@ Advantage of ReactJS:
 2.Easy Creation of the Dynamic Web Applications
 3.Reusable Components
 4.Performance Enhancement
+
+
+Functional Component
+
+->Functional Components is a plain JavaScript, you do not have a choice to set the state in functional component.
+->There is no render function we are using in functional components.
+->Functional components only accept the props as an argument.
+-> Functional components are sometimes called stateless components.
+
+Class Component
+
+-> Class components we have a feature to set the set state in component.
+-> In class components, we have a render function which is use to return the react elements.
+-> In class components, we have both options use the props and set the state also.
+-> Class components are sometimes called stateful components. 
 
