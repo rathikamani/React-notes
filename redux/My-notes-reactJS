@@ -49,6 +49,17 @@ Props are a way to pass data from a parent component to a child componet.
 they are immutable and help in making components more reusable.
 
 
+In React, components go through a lifecycle of events:
+
+Mounting (adding nodes to the DOM)
+Updating (altering existing nodes in the DOM)
+Unmounting (removing nodes from the DOM)
+Error handling (verifying that your code works and is bug-free)
+
+
+
+
+
 
 
 
