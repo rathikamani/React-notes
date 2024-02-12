@@ -23,3 +23,33 @@ Class Component
 -> In class components, we have both options use the props and set the state also.
 -> Class components are sometimes called stateful components. 
 
+
+State:
+State is a javascript object used to store and manage component-specific data.
+you can initialize state in a componet using the "useSate" hook, like this,
+
+import React, { useState } from 'react';
+ 
+function MyComponent() {
+  const [myState, setMyState] = useState(initialValue);
+ 
+  // Your component logic here
+ 
+  return (
+    <div>
+      {/* Your JSX using myState */}
+    </div>
+  );
+}
+
+when you call 'setMyState(newValue); React  re-renders your componet with the updated state.
+
+Props:
+Props are a way to pass data from a parent component to a child componet.
+they are immutable and help in making components more reusable.
+
+
+
+
+
+
