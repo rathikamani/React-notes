@@ -59,6 +59,9 @@ Error handling (verifying that your code works and is bug-free)
 https://blog.logrocket.com/useeffect-react-hook-complete-guide/
 
 
+useCallback and useMemo both expect a function and an array of dependencies. The difference is that useCallback returns its function when the dependencies change while useMemo calls its function and returns the result.
+
+
 
 
 
