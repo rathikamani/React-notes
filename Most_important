@@ -29,3 +29,133 @@ https://lnkd.in/gnkgtaXY
 https://lnkd.in/gz6NKTwJ
 
 Thanks for reading.
+
+Topics:
+Life cycle methods of components:
+=======================
+3 phases and their methods
+
+Hooks:
+========
+useState
+useEffect2
+useContext
+useReducer
+useMemo
+useCallback
+useRef
+
+Virtual dom:
+=========
+Reconciliation
+Diffing algorithm
+Render
+
+SSR and CSR
+============
+Difference and benifit, SEO, Performance
+
+Higher Order components:
+===================
+What is hoc, Why we use , When we use, How we use them ?
+
+State management
+=============
+State
+Props
+Props driling
+Context api
+Redux and toolkit
+
+CustomHooks
+==========
+When to use them and example code.
+
+LazyLoading:
+=========
+code splitting
+Suspense
+chunking
+
+Routing
+================
+react-router
+protected routes
+query params
+Dynamic routing
+Role based access control
+
+Testing:
+==================
+unit testing - Jest
+
+Async tasks
+==================
+Api calls
+fetch, axios
+events - scrolling
+
+Reusability, Modularity, Testability and Readability
+
+Performance:
+============
+lazyloading
+optimize assets,js,css
+Bundlers
+How to make rendering components fast and optimized?
+
+Styling:
+===============
+Bootstrap,Material Ui
+Css,scss,inline styling
+
+Accessibility
+Security
+
+
+Most asked questions:
+1. How to display dynamic html data in react ?
+2. How do you send data from parent component to child component in react ?
+3. How to call parent component method from child component in react ?
+4. How do you access the dom element ?
+5. How to bind array/array of objects to dropdown in react ?
+6. Create a lazy loaded component in react ?
+7. How to display data entered by the user in another textbox ?
+8. How to loop array/array of objects in react ?
+9. How to conditionally render an element or text in react ?
+10. How to change styles based on condition in react ?
+11. How to dhow and hide data based on condition in react ?
+12.Bind array/array of objects to radio button in react ?
+13.Display radio button data selected by user in another textbox ?
+14. How to call a method when component is rendered for the first time in react ?
+15.Display keys and values of objects in a loop in react?
+16. How to rerender a component on value change in react ?
+17. How to call a method on every rerender of a component in react ?
+18. How to add data into useState array in functional component in react ?
+19. Create a search textbox filter in react ?
+20.Create a counter component using useState ?
+21.Create a counter component using useReducer in react ?
+22.Change focus/enable/disable textbox in child component based on parent component
+button click in react?
+23. How to perform debouncing in react ?
+24.Create a component to fetch data from api in react ?
+25.Force a component to rerender with out using useState in react ?
+26. How to call a method immediately after state is updated or
+after component is rerendered in react ?
+27. How to display number of characters remaining functionality for textarea using react useRef?
+28.Given two dropdowns, select 2nd dropdown options based on value selected in one dropdown ?
+(Load states based on country selected)
+29.Perform type checking using prop-types ?
+30.Share data between components using context api ?
+31.Give an emaple of optimization using useMemo ?
+32.Give an example of optimization using usecallbacks in react ?
+33.Create an error boundary component in react ?
+34. How to display dropdown value selected by user in another textbox ?
+35.Create a pure component in react ?
+36.Create a controlled and uncontrolled component in react ?
+37.Create a custom hook using react ?
+38.Create a popup using portal in react ?
+39.Which lifecycle hooks in class component are replaced with useEffect in functional components ?
+40.Create a pagination component in react ?
+
+
